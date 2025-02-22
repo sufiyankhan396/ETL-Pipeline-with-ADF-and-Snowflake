@@ -1,0 +1,11 @@
+{
+    "name": "TransformAndLoadSnowflake",
+    "activities": [
+        {
+            "name": "DataFlow",
+            "type": "MappingDataFlow",
+            "source": { "name": "AzureBlobStorage" },
+            "sink": { "name": "SnowflakeTable" }
+        }
+    ]
+}

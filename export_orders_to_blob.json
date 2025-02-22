@@ -1,0 +1,11 @@
+{
+    "name": "ExportOrdersToBlob",
+    "activities": [
+        {
+            "name": "CopyData",
+            "type": "Copy",
+            "inputs": [{ "name": "AzureSQLTable" }],
+            "outputs": [{ "name": "AzureBlobStorage" }]
+        }
+    ]
+}
